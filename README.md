@@ -6,5 +6,5 @@ ___
 The GitHub ATM Project is part of weeks 15 of the MIT xPRO Full Stack Development with MERN course.
 
 ## Description of the Project 
-Creating a react app and adding Bootstrap to this project helped speed up production and styling. The project has two pages linked by a Navbar. The landing page has a Bio, and a short video, and the projects page showcases the projects I worked on during the past weeks at the MIT course.
+Creating a react app and adding Bootstrap to this project helped speed up production and styling. The project has an ATM machine App the ATM options are deposit and withdraw form an account. If you try to withdraw more than the account balance the submit button will not work.
 
