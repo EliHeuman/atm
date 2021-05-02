@@ -1,4 +1,4 @@
 # ATM GitHub Project
-M.I.T xPRO GitHub
+M.I.T xPRO GitHub ATM Project
 
 
