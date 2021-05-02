@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: rgb(117, 228, 217); opacity:0.8;
+  border-radius: 10px;
+}
+select {
+  display: block;
+  margin-bottom: 20px; 
+  background-color: rgb(117, 228, 217); opacity:0.8;
+  border-radius: 20px;
+}
+#submit-input{
+  width: 65px;
+  height: 65px;
+  border: 1px solid rgb(117, 228, 217); opacity:0.8;
+  margin-left: 10px;
+  background-color: rgb(117, 228, 217); opacity:0.8;
+}
+#submit-input.Cash-Back:hover{
+  border-radius: 20px;
+  width: 65px;
+  height: 65px;
+  border: 1px solid brown; opacity:0.8;
+  margin-left: 10px;
+  background-color:white; opacity:0.8;
+}
+#submit-input.Deposit:hover{
+  border-radius: 20px;
+  width: 65px;
+  height: 65px;
+  border: 1px solid rgb(13, 194, 149); opacity:0.8;
+  margin-left: 10px;
+  background-color:white; opacity:0.8;
+}
+#submit-input:disabled,
+#submit-input[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  border-radius: 20px;
+  content:Insufficient funds;
+}
+#cashback-selection {
+  background-color:brown;
+}
+#deposit-selection {
+  background-color: green;
+}
+.input-Cash-Back{
+  color: red;
+  border: 6px solid brown;
+  border-radius: 10px;
+}
+.input-Deposit{
+  color: green;
+  border: 6px solid rgb(13, 194, 149);
+  border-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#total{
+  background-color:rgb(117, 228, 217);
 }
